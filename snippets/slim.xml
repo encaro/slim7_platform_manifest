@@ -10,10 +10,13 @@
   <project name="LineageOS/android_external_libsamsung-ipc" path="external/libsamsung-ipc" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
 
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/apps/Jelly" name="slim7_packages_apps_Jelly" remote="non" revision="cm-14.1" />
+
   <!-- Aosp Forks -->
   <project path="art" name="SlimRoms/android_art" />
-  <project path="bionic" name="SlimRoms/android_bionic" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
+  <project path="bionic" name="slim7_bionic" remote="non" />
+  <project path="bootable/recovery" name="slim7_bootable_recovery" remote="non" />
   <project path="build/kati" name="SlimRoms/android_build_kati" />
   <project path="external/aac" name="SlimRoms/android_external_aac" />
   <project path="external/libavc" name="SlimRoms/android_external_libavc" />
@@ -31,14 +34,14 @@
   <project path="external/libvpx" name="SlimRoms/android_external_libvpx" />
   <project path="external/okhttp" name="SlimRoms/android_external_okhttp" />
   <project path="external/skia" name="SlimRoms/android_external_skia" />
-  <project path="external/sonivox" name="SlimRoms/android_external_sonivox" />
+  <project path="external/sonivox" name="slim7_external_sonivox" remote="non" />
   <project path="external/sqlite" name="SlimRoms/android_external_sqlite" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="external/tinyxml2" name="SlimRoms/android_external_tinyxml2" />
-  <project path="external/tremolo" name="SlimRoms/android_external_tremolo" />
+  <project path="external/tremolo" name="slim7_external_tremolo" remote="non" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" />
+  <project path="frameworks/av" name="slim7_frameworks_av" remote="non" />
   <project path="frameworks/base" name="slim7_frameworks_base" remote="non" />
   <project path="frameworks/ex" name="SlimRoms/frameworks_ex"  />
   <project path="frameworks/minikin" name="SlimRoms/frameworks_minikin" />
@@ -46,7 +49,7 @@
   <project path="frameworks/opt/color-picker" name="SlimRoms/frameworks_opt_color-picker" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="slim7_frameworks_opt_telephony" remote="non" />
   <project path="frameworks/support" name="SlimRoms/frameworks_support" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
@@ -58,7 +61,7 @@
   <project path="hardware/intel/img/hwcomposer" name="SlimRoms/hardware_intel_img_hwcomposer" />
   <project path="hardware/intel/img/psb_headers" name="SlimRoms/hardware_intel_img_psb_headers" />
   <project path="hardware/intel/img/psb_video" name="SlimRoms/hardware_intel_img_psb_video" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
+  <project path="hardware/libhardware" name="slim7_hardware_libhardware" remote="non" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" />
   <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
@@ -69,7 +72,7 @@
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
-  <project path="hardware/ril" name="SlimRoms/hardware_ril" />
+  <project path="hardware/ril" name="slim7_hardware_ril" remote="non" />
   <project path="libcore" name="SlimRoms/android_libcore" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" />
@@ -81,13 +84,13 @@
   <project path="packages/apps/Dialer" name="slim7_packages_apps_Dialer" remote="non" />
   <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" />
-  <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" />
+  <project path="packages/apps/Messaging" name="slim7_packages_apps_Messaging" remote="non" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" />
-  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="slim7_packages_apps_Nfc" remote="non" />
   <project path="packages/apps/PackageInstaller" name="slim7_packages_apps_PackageInstaller" remote="non" />
   <project path="packages/apps/PhoneCommon" name="slim7_packages_apps_PhoneCommon" remote="non" />
   <project path="packages/apps/Settings" name="slim7_packages_apps_Settings" remote="non" />
-  <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" />
+  <project path="packages/apps/Snap" name="slim7_packages_apps_Snap" remote="non" />
   <project path="packages/apps/SnapdragonGallery" name="SlimRoms/packages_apps_SnapdragonGallery" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" />
@@ -97,16 +100,16 @@
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" />
+  <project path="packages/services/Telecomm" name="slim7_packages_services_Telecomm" remote="non" />
+  <project path="packages/services/Telephony" name="slim7_packages_services_Telephony" remote="non" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
-  <project path="system/core" name="slim7_android_system_core"  remote="non" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" />
+  <project path="system/core" name="slim7_system_core"  remote="non" />
+  <project path="system/extras" name="slim7_system_extras"  remote="non"/>
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" />
   <project path="system/media" name="SlimRoms/android_system_media" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" />
+  <project path="system/netd" name="slim7_android_system_netd" remote="non" />
   <project path="system/security" name="SlimRoms/android_system_security" />
   <project path="system/sepolicy" name="slim7_android_system_sepolicy" remote="non" />
   <project path="system/vold" name="SlimRoms/android_system_vold" />
@@ -167,8 +170,8 @@
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
   <project path="packages/apps/SlimWallpapers" name="SlimRoms/packages_apps_SlimWallpapers" />
   <project path="platform_manifest" name="slim7_platform_manifest" remote="non" />
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" />
-  <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
+  <project path="vendor/slim" name="slim7_vendor_slim" remote="non" />
+  <project path="frameworks/slim" name="slim7_frameworks_slim" remote="non" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
 
 </manifest>

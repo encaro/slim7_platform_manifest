@@ -22,7 +22,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="slim7_android_build" groups="pdk,tradefed" remote="non" >
+  <project path="build" name="slim7_build" groups="pdk,tradefed" remote="non" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
