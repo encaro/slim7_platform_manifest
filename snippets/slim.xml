@@ -42,7 +42,7 @@
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/ex" name="SlimRoms/frameworks_ex"  />
   <project path="frameworks/minikin" name="SlimRoms/frameworks_minikin" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" />
+  <project path="frameworks/native" name="slim7_frameworks_native" remote="non" />
   <project path="frameworks/opt/color-picker" name="SlimRoms/frameworks_opt_color-picker" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
