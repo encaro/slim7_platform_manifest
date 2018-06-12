@@ -15,7 +15,7 @@
 
   <remote  name="non"
            fetch="https://github.com/non1979"
-           revision="refs/heads/7.1" />
+           revision="refs/heads/ng7.1" />
 
   <default revision="refs/heads/ng7.1"
            remote="github"
