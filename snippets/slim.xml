@@ -167,7 +167,7 @@
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
+  <project path="packages/apps/Launcher3" name="slim7_packages_apps_Launcher3" remote="non" revision="n7x" />
   <project path="packages/apps/SlimWallpapers" name="SlimRoms/packages_apps_SlimWallpapers" />
   <project path="platform_manifest" name="slim7_platform_manifest" remote="non" />
   <project path="vendor/slim" name="slim7_vendor_slim" remote="non" />
