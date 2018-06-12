@@ -79,7 +79,7 @@
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/Contacts" name="slim7_packages_apps_Contacts" remote="non" />
-  <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="slim7_packages_apps_ContactsCommon" remote="non" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="slim7_packages_apps_Dialer" remote="non" />
   <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" />
