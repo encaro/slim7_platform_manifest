@@ -31,7 +31,7 @@
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
   <project path="external/libhevc" name="slim7_external_libhevc" remote="non" />
-  <project path="external/libvpx" name="SlimRoms/android_external_libvpx" />
+  <project path="external/libvpx" name="slim7_external_libvpx" remote="non" />
   <project path="external/okhttp" name="SlimRoms/android_external_okhttp" />
   <project path="external/skia" name="SlimRoms/android_external_skia" />
   <project path="external/sonivox" name="slim7_external_sonivox" remote="non" />
