@@ -109,7 +109,7 @@
   <project path="system/extras" name="slim7_system_extras"  remote="non"/>
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" />
   <project path="system/media" name="SlimRoms/android_system_media" />
-  <project path="system/netd" name="slim7_android_system_netd" remote="non" />
+  <project path="system/netd" name="slim7_system_netd" remote="non" />
   <project path="system/security" name="SlimRoms/android_system_security" />
   <project path="system/sepolicy" name="slim7_android_system_sepolicy" remote="non" />
   <project path="system/vold" name="SlimRoms/android_system_vold" />
