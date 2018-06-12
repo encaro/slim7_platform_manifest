@@ -39,7 +39,7 @@
   <project path="external/tremolo" name="SlimRoms/android_external_tremolo" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" />
+  <project path="frameworks/base" name="slim7_frameworks_base" remote="non" />
   <project path="frameworks/ex" name="SlimRoms/frameworks_ex"  />
   <project path="frameworks/minikin" name="SlimRoms/frameworks_minikin" />
   <project path="frameworks/native" name="slim7_frameworks_native" remote="non" />
@@ -75,18 +75,18 @@
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" />
-  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="slim7_packages_apps_Contacts" remote="non" />
   <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="slim7_packages_apps_Dialer" remote="non" />
   <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" />
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
-  <project path="packages/apps/PackageInstaller" name="SlimRoms/packages_apps_PackageInstaller" />
-  <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
+  <project path="packages/apps/PackageInstaller" name="slim7_packages_apps_PackageInstaller" remote="non" />
+  <project path="packages/apps/PhoneCommon" name="slim7_packages_apps_PhoneCommon" remote="non" />
+  <project path="packages/apps/Settings" name="slim7_packages_apps_Settings" remote="non" />
   <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" />
   <project path="packages/apps/SnapdragonGallery" name="SlimRoms/packages_apps_SnapdragonGallery" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
@@ -102,13 +102,13 @@
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
-  <project path="system/core" name="SlimRoms/android_system_core" />
+  <project path="system/core" name="slim7_android_system_core"  remote="non" />
   <project path="system/extras" name="SlimRoms/android_system_extras" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" />
   <project path="system/media" name="SlimRoms/android_system_media" />
   <project path="system/netd" name="SlimRoms/android_system_netd" />
   <project path="system/security" name="SlimRoms/android_system_security" />
-  <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" />
+  <project path="system/sepolicy" name="slim7_android_system_sepolicy" remote="non" />
   <project path="system/vold" name="SlimRoms/android_system_vold" />
 
   <!-- CodeAurora Additions -->
