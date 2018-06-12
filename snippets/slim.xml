@@ -97,7 +97,7 @@
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="slim7_packages_providers_MediaProvider" remote="non" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" />
   <project path="packages/services/Telecomm" name="slim7_packages_services_Telecomm" remote="non" />
