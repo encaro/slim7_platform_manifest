@@ -27,7 +27,7 @@
   <project path="external/flac" name="SlimRoms/android_external_flac" />
   <project path="external/icu" name="SlimRoms/android_external_icu" />
   <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools"  />
-  <project path="external/libmpeg2" name="SlimRoms/android_external_libmpeg2" />
+  <project path="external/libmpeg2" name="slim7_external_libmpeg2" remote="non" />
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
   <project path="external/libhevc" name="slim7_external_libhevc" remote="non" />
