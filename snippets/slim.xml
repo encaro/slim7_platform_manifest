@@ -10,6 +10,20 @@
   <project name="LineageOS/android_external_libsamsung-ipc" path="external/libsamsung-ipc" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
 
+ <!-- Newer Clang Support -->
+  <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="uber" />
+  <project path="external/llvm" name="external_llvm" groups="pdk" remote="uber" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" groups="pdk" remote="uber" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="uber" />
+  <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="uber" />
+  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="uber" />
+
+  <!-- UBER Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.x" name="uberroms/arm-linaro-7.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
+
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/Jelly" name="slim7_packages_apps_Jelly" remote="non" revision="cm-14.1" />
 
@@ -35,7 +49,6 @@
   <project path="external/okhttp" name="SlimRoms/android_external_okhttp" />
   <project path="external/skia" name="SlimRoms/android_external_skia" />
   <project path="external/sonivox" name="slim7_external_sonivox" remote="non" />
-  <project path="external/sqlite" name="SlimRoms/android_external_sqlite" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="external/tinyxml2" name="SlimRoms/android_external_tinyxml2" />
