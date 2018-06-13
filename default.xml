@@ -431,7 +431,6 @@
   <project path="external/webp" name="RR7_android_external_webp" groups="pdk,qcom_msm8x26" remote="non" revision="nougat" />
   <project path="external/zlib" name="RR7_android_external_zlib" groups="pdk" remote="non" revision="nougat" />
 
-  <project path="external/f2fs-tools" name="RR7_android_external_f2fs-tools" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/v8" name="RR7_external_v8" groups="pdk" remote="non" revision="cm-14.1" />
 
 
