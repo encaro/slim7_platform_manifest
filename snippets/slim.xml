@@ -36,7 +36,7 @@
   <project path="external/libavc" name="slim7_external_libavc" remote="non" />
   <project path="external/apache-http" name="SlimRoms/android_external_apache-http" />
   <project path="external/dnsmasq" name="SlimRoms/android_external_dnsmasq" />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="slimromssecurity" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
   <project path="external/flac" name="SlimRoms/android_external_flac" />
   <project path="external/icu" name="SlimRoms/android_external_icu" />
@@ -125,7 +125,7 @@
   <project path="system/netd" name="slim7_system_netd" remote="non" />
   <project path="system/security" name="SlimRoms/android_system_security" />
   <project path="system/sepolicy" name="slim7_system_sepolicy" remote="non" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" />
+  <project path="system/vold" name="android_system_vold" remote="slimromssecurity" />
 
   <!-- CodeAurora Additions -->
   <project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" />

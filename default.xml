@@ -103,7 +103,7 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" remote="aosp" />
-  <project path="external/curl" name="platform/external/curl" remote="aosp" />
+  <project path="external/curl" name="android_external_curl" remote="android-security" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" remote="aosp" />
   <project path="external/dbus" name="platform/external/dbus" remote="aosp" />
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" remote="aosp" />
