@@ -435,7 +435,7 @@
   <project path="external/libjpeg-turbo" name="RR7_android_external_libjpeg-turbo" groups="pdk" remote="non" revision="nougat" />
   <project path="external/libpng" name="RR7_android_external_libpng" groups="pdk" remote="non" revision="nougat" />
   <project path="external/libxml2" name="RR7_android_external_libxml2" groups="pdk,libxml2" remote="non" revision="nougat" />
-  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="non" revision="nougat" />
+  <project path="external/sqlite" name="RR7_android_external_sqlite" groups="pdk" remote="non" revision="nougat" />
   <project path="external/webp" name="RR7_android_external_webp" groups="pdk,qcom_msm8x26" remote="non" revision="nougat" />
   <project path="external/zlib" name="RR7_android_external_zlib" groups="pdk" remote="non" revision="nougat" />
 
