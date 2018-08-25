@@ -4,7 +4,7 @@
   <!-- hardware -->
   <project name="slim7_device_samsung_i9300" path="device/samsung/i9300" remote="non" revision="cm-14.1" />
   <project name="slim7_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="non" revision="cm-14.1" />
-  <project name="slim7_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="non" revision="cm-14.1" />
+  <project name="RR7_android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="non" revision="RR" />
   <project name="slim7_hardware_samsung" path="hardware/samsung" remote="non" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_libsamsung-ipc" path="external/libsamsung-ipc" remote="github" revision="cm-14.1" />
