@@ -14,7 +14,7 @@
            revision="refs/tags/android-7.1.2_r36" />
 
   <remote  name="non"
-           fetch="https://github.com/non1979"
+           fetch="https://github.com/encaro"
            revision="refs/heads/ng7.1" />
 
   <remote name = "bb"
