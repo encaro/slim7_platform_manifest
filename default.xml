@@ -30,6 +30,10 @@
            sync-c="true"
            sync-j="4" />
 
+   <remote  name="android-security"
+            fetch="https://github.com/android-security/"
+            revision="aosp-7.1" />
+
   <project path="build" name="slim7_build" groups="pdk,tradefed" remote="non" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -45,7 +49,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="device/common" name="device/common" remote="android-security" groups="pdk-cw-fs,pdk" />
+  <project path="device/common" name="android_device_common" remote="android-security" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
