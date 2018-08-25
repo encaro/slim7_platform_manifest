@@ -88,7 +88,7 @@
   <project path="hardware/ril" name="slim7_hardware_ril" remote="non" />
   <project path="libcore" name="SlimRoms/android_libcore" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/Contacts" name="slim7_packages_apps_Contacts" remote="non" />
@@ -121,7 +121,7 @@
   <project path="system/core" name="slim7_system_core"  remote="non" />
   <project path="system/extras" name="slim7_system_extras"  remote="non"/>
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" />
-  <project path="system/media" name="SlimRoms/android_system_media" />
+  <project path="system/media" name="system_media" remote="slimromssecurity" />
   <project path="system/netd" name="slim7_system_netd" remote="non" />
   <project path="system/security" name="SlimRoms/android_system_security" />
   <project path="system/sepolicy" name="slim7_system_sepolicy" remote="non" />
