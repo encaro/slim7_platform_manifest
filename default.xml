@@ -34,6 +34,10 @@
             fetch="https://github.com/android-security/"
             revision="aosp-7.1" />
 
+   <remote  name="slimromssecurity"
+            fetch="https://github.com/SlimRomsSecurity/"
+            revision="ng7.1" />
+
   <project path="build" name="slim7_build" groups="pdk,tradefed" remote="non" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -85,7 +89,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
   <project path="external/c-ares" name="platform/external/c-ares" remote="aosp" />
